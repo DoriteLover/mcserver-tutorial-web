@@ -1,8 +1,6 @@
-# Making a Minecraft server
+# Making your OWN Minecraft server
 
-## Interested in making your own Minecraft server?
-
-Don't worry, it's easier than you think! You're totally in the right place!
+Interested in making your own Minecraft server? Don't worry, it's easier than you think! You're totally in the right place!
 
 ## A guide on how to make a Minecraft server easily.
 
@@ -23,9 +21,9 @@ Download a Minecraft server executable such as Paper, Kotlin, Fabric, or the Van
 
 Here are links to server executables that you can use as your choice:
 
-1. [Paper](https://papermc.io/downloads/paper)
-2. [Fabric](https://fabricmc.net/use/)
-3. [Vanilla (Not recommended. Read line 12)](https://www.minecraft.net/en-us/download/server)
+ - [Paper](https://papermc.io/downloads/paper)
+ - [Fabric](https://fabricmc.net/use/)
+ - [Vanilla (Not recommended. Read line 12)](https://www.minecraft.net/en-us/download/server)
 
 Create a folder in your server that can be named anything, then drag the executable into the folder that is newly created.
 
