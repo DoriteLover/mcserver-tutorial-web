@@ -31,6 +31,6 @@ Create a folder in your server that can be named anything, then drag the executa
 
 After that, you can launch the server and it will create some files and folders. You will need to accept the EULA by changing the eula.txt file to "eula=true", and then you can relaunch the server again and it should work fine.
 
-#### 3: Joining/Testing your Minecraft server
+### 3: Joining/Testing your Minecraft server
 
 To join your Minecraft server, open Minecraft and enter the server IP address in the multiplayer section. The IP address can be 192.168.1.7 or your public IP address if you are hosting it online through playit.gg.
