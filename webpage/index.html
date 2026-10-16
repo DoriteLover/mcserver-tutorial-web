@@ -21,11 +21,13 @@
         <li>USB Flash Drive at least 16GB for host setup installation media</li>
     </ul>
     <h2>2: Installation</h2>
-    <h3>2.1 Installing <a href="https://en.wikipedia.org/wiki/Debian" target="_blank">Debian</a></h3>
+    <h3>Installing <a href="https://en.wikipedia.org/wiki/Debian" target="_blank">Debian</a></h3>
     <p>Debian is VERY recommended for hosting something like this as it's super stable and have support for old devices too. You might not be familiar with the operating system but this guide can help you get through it!</p>
     <p><strong>1) Download debian 13.6.0 or later: <a href="https://cdimage.debian.org/debian-cd/13.6.0-live/amd64/iso-hybrid/" target="_blank">https://cdimage.debian.org/debian-cd/13.6.0-live/amd64/iso-hybrid/</a></strong></p>
     <p>When you get to this page, click here to download my recommended ISO file.</p>
     <img src="medias\debiandownload.png" alt="Debian Download" width="500">
+    <p><i>You can also pick the standard version but it will come with a more unfriendly installer experience and after installing, it will only give you a terminal interface which can make you feel overwhelmed but the plus side is you will get a little more performance out of it since a little usuage will be saved because it isn't rendering the graphical interfaces that I have recommended before.</i></p>
+    <p><i>Still, if you're a beginner, you should go with what I recommended.</i></p>
     <p><strong>2) Create a bootable USB drive</strong></p>
     <p><strong>For Windows</strong></p>
     <p>First step, plug in your USB flash drive and <a href="https://rufus.ie/en/" target="_blank">download Rufus</a>. Click on the first option and it should download the right version for your system that you are gonna use it to flash your USB flash drive with the Debian ISO.</p>
@@ -37,13 +39,16 @@
     <p>Note for Arch Linux and Arch Linux based Distrobutions: If you've downloaded BalenaEtcher in an AppImage format, don't forget to give permission for yourself to open the AppImage.</p>
     <p>Second, plug your USB flash drive into your device.</p>
     <p>Third, Put the Debian ISO into BalenaEtcher and press Flash then wait.</p>
-    <p><strong>3) Booting into the USB</strong></p>
+    <p><strong>3) Booting into the USB and Installing Debian</strong></p>
     <strong>Secure Boot is recommended to be toggled off </strong>
     <p>Find the key you need to press to get into the BIOS/UEFI or the Boot Selection Menu for your motherboard or laptop.</p>
     <p>For example, I'm doing this on my DELL Optiplex 3010 (Intel Core i5 model) so I will repeatedly press F12 while powering the host machine on AKA; DELL Optiplex 3010.</p>
     <p>If you get into a BIOS or an UEFI menu, set the USB device to be on the top of the boot priority so it can boot into the USB.</p>
     <p>If you get into a Boot Selection Menu, select your USB device and wait.</p>
     <p>When you finally get into the Debian installer, follow the on-screen instructions to complete the installation then you can read the next step to host your Minecraft server.</p>
+    <p>To launch the installer, just double left-click the "Install Debian" button on your desktop and the graphical installer will show up then you can proceed. A wipe of your SSD or a hard disk is recommended if you have nothing important on that storage devices of yours.</p>
+    <h3>Setting up the Minecraft Server of yours</h3>
+    <p><strong>This will be split into 2 parts: The hard way and the easy way, you can choose the one you want to go with and it's certainly up to you.</strong></p>
     <p><a href="pages/feedback.html" target="_blank">Feedback</a></p>
 </body>
 </html>
